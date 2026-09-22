@@ -1,0 +1,52 @@
+import type { LocalRestaurant } from '../../types';
+import { makeResto } from './helper';
+
+export const europeCentralNorthExtraRestaurants: LocalRestaurant[] = [
+  // ==========================================
+  // ZURICH (zurich-ch)
+  // ==========================================
+  makeResto('res-ext-zur-1', 'Haus Hiltl Zurich', 'zurich-ch', 'Zurich', 'Suisse', 'Sihlstrasse 28', 'Centre / Bahnhofstrasse', 47.3732, 8.5358, 'Le Plus Ancien Végétarien du Monde (depuis 1898)', '€€€', '32 - 58 CHF', '100% végétarien', 'non vérifié', 4.7, 'Fondé en 1898 et certifié par le Livre Guinness comme le plus ancien restaurant végétarien au monde avec plus de 100 spécialités au buffet.', ['Buffet végétarien géant au poids', 'Curry de Madras traditionnel Hiltl', 'Tartare végétarien maison à l’aubergine'], 'Vérifié le 15/01/2025', '+41 44 227 70 00'),
+  makeResto('res-ext-zur-2', 'Zeughauskeller Zurich', 'zurich-ch', 'Zurich', 'Suisse', 'Bahnhofstrasse 28A', 'Paradeplatz / Altstadt', 47.3705, 8.5402, 'Ancien Arsenal & Cuisine Suisse Traditionnelle', '€€', '25 - 45 CHF', 'options végétariennes', 'non vérifié', 4.6, 'Ancien arsenal de la ville construit en 1487 servant les grandes spécialités zurichoises sous de monumentales poutres en bois.', ['Zürcher Geschnetzeltes émincé de veau et rösti doré', 'Saucisse Kalbsbratwurst au mètre', 'Bière maison Zeughauskeller'], 'Vérifié le 14/01/2025', '+41 44 220 15 15'),
+
+  // ==========================================
+  // GENÈVE (geneve-ch)
+  // ==========================================
+  makeResto('res-ext-gva-1', 'Les Armures Genève', 'geneve-ch', 'Genève', 'Suisse', 'Rue du Puits-Saint-Pierre 1', 'Vieille-Ville', 46.2008, 6.1472, 'Spécialités Suisses & Fondue au Fromage', '€€€', '35 - 62 CHF', 'options végétariennes', 'non vérifié', 4.7, 'La table de fondue la plus célèbre de Genève dans les caves voûtées du XVIIe siècle au sommet de la vieille ville.', ['Fondue moitié-moitié traditionnelle au vacherin', 'Raclette suisse servie avec pommes de terre et cornichons', 'Émincé de veau à la zurichoise et rösti'], 'Vérifié le 15/01/2025', '+41 22 818 71 71'),
+  makeResto('res-ext-gva-2', 'Alive Genève', 'geneve-ch', 'Genève', 'Suisse', 'Rue des Barques 2', 'Eaux-Vives / Lac', 46.2035, 6.1575, '100% Végétal & Pâtisserie Fine Bio', '€€', '18 - 32 CHF', '100% végétarien', 'non vérifié', 4.8, 'Espace bien-être, café et restaurant 100% végétalien proposant des assiettes crues et cuites sans gluten.', ['Superfood Bowl au tempeh mariné et légumes rôtis', 'Burger végan bun au charbon végétal', 'Pâtisseries végétales crues aux fruits rouges'], 'Vérifié le 12/01/2025', '+41 22 735 30 82'),
+
+  // ==========================================
+  // PRAGUE (prague-cz)
+  // ==========================================
+  makeResto('res-ext-prg-1', 'Maitrea Vegetarian Restaurant Prague', 'prague-cz', 'Prague', 'République Tchèque', 'Týnská ulička 1064/6', 'Staré Město / Place de la Vieille-Ville', 50.0882, 14.4225, 'Végétarien Feng Shui & Cuisine Tchèque Réinventée', '€€', '12 - 22 €', '100% végétarien', 'non vérifié', 4.7, 'Restaurant végétarien conçu selon les principes du Feng Shui avec fontaines intérieures et plats traditionnels tchèques revisités.', ['Svíčková végétarienne sauce crème et quenelles', 'Goulash tchèque au seitan et knedlíky', 'Curry thaï aux légumes croquants et tofu bio'], 'Vérifié le 14/01/2025', '+420 221 711 631'),
+  makeResto('res-ext-prg-2', 'Lokál Dlouhááá Prague', 'prague-cz', 'Prague', 'République Tchèque', 'Dlouhá 33', 'Staré Město / Dlouhá', 50.0905, 14.4265, 'Bière Pilsner Urquell de Cuve & Plats Tchèques', '€', '8 - 16 €', 'options végétariennes', 'non vérifié', 4.6, 'Le temple moderne de la bière à Prague longue de 80 mètres où la Pilsner non pasteurisée est tirée directement des cuves.', ['Fromage pané Smažený sýr avec sauce tartare', 'Jambon de Prague tiède à la crème de raifort', 'Goulash de bœuf mijoté et knedlíky'], 'Vérifié le 13/01/2025', '+420 222 316 265'),
+
+  // ==========================================
+  // BUDAPEST (budapest-hu)
+  // ==========================================
+  makeResto('res-ext-bud-1', 'Mazel Tov Budapest', 'budapest-hu', 'Budapest', 'Hongrie', 'Akácfa u. 47', 'Quartier Juif / Erzsébetváros', 47.5002, 19.0665, 'Moyen-Orient & Jardin Ruin Bar Végétalisé', '€€', '14 - 26 €', 'options végétariennes', 'Halal vérifié', 4.7, 'Splendide cour intérieure arborée et lumineuse proposant des grillades halal, falafels et mezzés au son de concerts acoustiques.', ['Assiette falafel maison et salade israélienne', 'Shawarma poulet mariné halal en pita chaude', 'Shakshuka fumée aux œufs de ferme'], 'Vérifié le 15/01/2025', '+36 70 626 4280'),
+  makeResto('res-ext-bud-2', 'Gettó Gulyás Budapest', 'budapest-hu', 'Budapest', 'Hongrie', 'Wesselényi u. 18', 'Quartier Juif / Erzsébetváros', 47.4975, 19.0632, 'Goulash & Ragoûts Hongrois Authentiques', '€€', '11 - 20 €', 'options végétariennes', 'non vérifié', 4.7, 'Restaurant dédié aux ragoûts traditionnels hongrois (Pörkölt) dans un décor bois et métal chaleureux.', ['Véritable soupe de goulash hongroise au paprika', 'Pörkölt de bœuf avec nokedli au beurre', 'Gâteau éponge Somlói Galuska'], 'Vérifié le 12/01/2025', '+36 1 789 3721'),
+
+  // ==========================================
+  // CRACOVIE (cracovie-pl)
+  // ==========================================
+  makeResto('res-ext-krk-1', 'Pod Aniołami Krakow', 'cracovie-pl', 'Cracovie', 'Pologne', 'Grodzka 35', 'Stare Miasto / Voie Royale', 50.0585, 19.9385, 'Cuisine Polonaise Traditionnelle au Feu de Bois', '€€€', '22 - 42 €', 'options végétariennes', 'non vérifié', 4.7, 'Maison des orfèvres du XIIIe siècle avec caves voûtées où viandes et spécialités polonaises sont rôties au bois de hêtre.', ['Pierogis artisanaux farcis au fromage blanc et pommes de terre', 'Soupe traditionnelle Żurek servie dans une miche de pain', 'Canard rôti aux pommes caramélisées'], 'Vérifié le 14/01/2025', '+48 12 421 39 99'),
+  makeResto('res-ext-krk-2', 'Krowarzywa Vegan Burgers Krakow', 'cracovie-pl', 'Cracovie', 'Pologne', 'Sławkowska 8', 'Stare Miasto / Rynek', 50.0632, 19.9372, '100% Végétalien & Élu Meilleur Burger de Pologne', '€', '7 - 12 €', '100% végétarien', 'non vérifié', 4.7, 'Pionnier du burger 100% végétal en Pologne avec galettes maison de millet, tofu mariné ou seitan et frites au four.', ['Burger Jaglanx au millet et graines de courge', 'Burger Cieciorex aux pois chiches et herbes fraîches', 'Smoothie vert détox bio'], 'Vérifié le 10/01/2025', '+48 576 430 499'),
+
+  // ==========================================
+  // VARSOVIE (varsovie-pl)
+  // ==========================================
+  makeResto('res-ext-waw-1', 'Stary Dom Restaurant Warsaw', 'varsovie-pl', 'Varsovie', 'Pologne', 'Puławska 104/106', 'Mokotów', 52.1985, 21.0232, 'Gastronomie Polonaise Classique d’Époque', '€€€', '24 - 48 €', 'options végétariennes', 'non vérifié', 4.8, 'Haut lieu de la gastronomie varsovienne avec boiseries anciennes, tartare de bœuf préparé à table au guéridon et gâteaux artisanaux.', ['Tartare de bœuf coupé au couteau minute à votre table', 'Kotlet Schabowy géant au saindoux avec chou mijoté', 'Gâteau Beza pavlova aux fruits rouges'], 'Vérifié le 15/01/2025', '+48 22 646 42 08'),
+  makeResto('res-ext-waw-2', 'Youmiko Vegan Sushi Warsaw', 'varsovie-pl', 'Varsovie', 'Pologne', 'Hoża 62', 'Śródmieście Południowe', 52.2262, 21.0112, 'Sushi Japonais 100% Végétalien', '€€', '16 - 30 €', '100% végétarien', 'non vérifié', 4.8, 'Comptoir de sushi d’auteur 100% végétalien préparé selon la tradition Edomae avec légumes marinés, aubergines et champignons shiitake.', ['Menu Omakase dégustation de sushis végétaux', 'Nigiri d’aubergine marinée au miso et torche', 'Gunkan au tartare de tomates séchées et algues'], 'Vérifié le 13/01/2025', '+48 22 258 11 02'),
+
+  // ==========================================
+  // COPENHAGUE (copenhague-dk)
+  // ==========================================
+  makeResto('res-ext-cph-1', 'Aamanns 1921 Copenhagen', 'copenhague-dk', 'Copenhague', 'Danemark', 'Niels Hemmingsens Gade 19-21', 'Indre By / Gråbrødretorv', 55.6795, 12.5745, 'Le Maître du Smørrebrød Gastronomique Danois', '€€€', '30 - 55 €', 'options végétariennes', 'non vérifié', 4.7, 'Adam Aamann a révolutionné le sandwich ouvert traditionnel danois sur pain de seigle avec des produits bio ultra-frais.', ['Smørrebrød au hareng mariné, crème aigre et aneth', 'Smørrebrød végétarien aux champignons rôtis et émulsion d’ail des ours', 'Bœuf braisé sur pain de seigle maison'], 'Vérifié le 14/01/2025', '+45 20 80 52 04'),
+  makeResto('res-ext-cph-2', 'Souls Street Food Copenhagen', 'copenhague-dk', 'Copenhague', 'Danemark', 'Melchiors Plads 3', 'Østerbro', 55.7025, 12.5855, '100% Végétalien & Confort Food Nordique', '€€', '15 - 28 €', '100% végétarien', 'non vérifié', 4.8, 'Restaurant 100% végétalien récompensé Meilleur Restaurant Végétalien de Copenhague pour ses burgers et bowls locaux.', ['Soul Burger avec galette maison et cheddar végan fumé', 'Pancakes sans gluten aux myrtilles scandinaves', 'Ramen chaud nordique au bouillon de légumes racines'], 'Vérifié le 11/01/2025', '+45 35 42 00 00'),
+
+  // ==========================================
+  // STOCKHOLM (stockholm-se)
+  // ==========================================
+  makeResto('res-ext-sto-1', 'Tradition Stockholm', 'stockholm-se', 'Stockholm', 'Suède', 'Österlånggatan 1', 'Gamla Stan / Vieille-Ville', 59.3255, 18.0725, 'Boulettes Suédoises & Terroir Husmanskost', '€€', '22 - 40 €', 'options végétariennes', 'non vérifié', 4.7, 'Restaurant épuré de Gamla Stan dédié aux véritables recettes traditionnelles familiales suédoises sans artifices.', ['Véritables boulettes suédoises de veau, purée et airelles fraîches', 'Saumon mariné Gravlax à la moutarde douce et aneth', 'Harengs marinés assortis avec pain croustillant knäckebröd'], 'Vérifié le 14/01/2025', '+48 8 690 95 01'),
+  makeResto('res-ext-sto-2', 'Hermans Vegetariska Stockholm', 'stockholm-se', 'Stockholm', 'Suède', 'Fjällgatan 23B', 'Södermalm / Falaises de Fjällgatan', 59.3175, 18.0875, 'Buffet 100% Végétal & Vue Panoramique sur l’Archipel', '€€', '18 - 32 €', '100% végétarien', 'non vérifié', 4.7, 'Terrasse et jardin suspendus sur les falaises de Södermalm avec buffet végétarien bio à volonté et vue féerique sur la mer.', ['Buffet chaud et froid végétarien et végane à volonté', 'Lasagnes végétales aux épinards et béchamel d’amande', 'Gâteau au chocolat cru végan et café bio'], 'Vérifié le 15/01/2025', '+46 8 643 94 80')
+];

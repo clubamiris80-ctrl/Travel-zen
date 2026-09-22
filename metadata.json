@@ -1,0 +1,8 @@
+{
+  "name": "Remix Sauvegarde TravelZen-D",
+  "description": "A smart trip planning application that helps users organize their travel itineraries by selecting cities, activities, and hotels. It automatically generates an optimized daily schedule based on geographical proximity and user preferences for pace and transportation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
